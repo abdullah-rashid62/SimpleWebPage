@@ -1,0 +1,226 @@
+/* css reset  */
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: black;
+}
+/* navbar */
+#navbar {
+  display: flex;
+}
+#navbar::before {
+  content: " ";
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 6rem;
+  z-index: -1;
+  opacity: 1;
+}
+#logos {
+  padding: 1rem 2rem 0rem 2rem;
+}
+#logos img {
+  display: block;
+  border: 1px solid black;
+  border-radius: 51%;
+}
+#menu {
+  display: flex;
+}
+.item {
+  list-style: none;
+  margin-top: 1.8rem;
+}
+.item a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+}
+.item a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 9%;
+}
+/* home style */
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 2rem;
+}
+#home::before {
+  content: " ";
+  background: url("../Pictures/backgroundmian.jpeg") no-repeat center
+    center/cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 29rem;
+  z-index: -1;
+  opacity: 0.9;
+}
+#home h2 {
+  font-size: 2.8rem;
+  padding: 12px;
+}
+#home p {
+  font-size: 1rem;
+}
+#btn {
+  font-family: "Lobster", cursive;
+  margin-top: 3rem;
+  border: 1px solid rgb(230, 47, 15);
+  background-color: rgb(230, 47, 15);
+  color: white;
+  padding: 0.7rem;
+  border-radius: 11%;
+  cursor: pointer;
+  width: 7rem;
+  height: 3rem;
+  transition-property: all;
+  transition-duration: 1s;
+}
+#btn:hover {
+  background-color: black;
+  border: 1px solid black;
+  width: 7.5rem;
+  height: 3.5rem;
+}
+/* Servics */
+#serMain {
+  margin: 6rem 0rem 0rem 0rem;
+}
+#serHead {
+  /* margin: 8rem 0rem 0rem -1rem; */
+  background-color: black;
+  color: whitesmoke;
+  padding-top: 2rem;
+  font-size: 3rem;
+  /* align-content: center; */
+  text-align: center;
+}
+#services {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.serve {
+  border: 1px solid black;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 10%;
+  background-color: white;
+}
+.serve h2 {
+  text-align: center;
+}
+.serve img {
+  display: block;
+  margin: 0 auto;
+}
+#serMain::before {
+  content: " ";
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 29rem;
+  z-index: -1;
+  opacity: 1;
+}
+/* Customer Sectiion */
+#brandMain {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+#brandMain::before {
+  /* content: " ";
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 21rem;
+  z-index: -1;
+  opacity: 1; */
+}
+#brandMain h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+#brand {
+  display: flex;
+  flex-direction: row;
+  margin: 0rem auto;
+}
+.logo {
+  padding: 2rem;
+  /* border: 1px solid black; */
+}
+/* form Section */
+#formMain {
+  display: flex;
+  flex-direction: column;
+}
+#formMain::before {
+  content: " ";
+  position: absolute;
+  background: url("../Pictures/bgform.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 37rem;
+  z-index: -1;
+  opacity: 1;
+}
+#formMain h2 {
+  /* text-align: center; */
+  font-size: 2rem;
+  padding: 2rem;
+}
+#formMain input {
+  display: block;
+  width: 30rem;
+  height: 2rem;
+  margin: 1rem 0rem 0rem 2rem;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+textarea {
+  width: 30rem;
+  height: 10rem;
+  margin: 1rem 0rem 0rem 2rem;
+  background: none;
+  padding-top: 1rem;
+}
+#ibtncon input {
+  transition-property: all;
+  transition-timing-function: ease-in;
+  transition-duration: 0.5s;
+  border: 1px solid black;
+  cursor: pointer;
+  color: white;
+  background-color: red;
+  border-radius: 15;
+}
+#ibtncon input:hover {
+  background-color: black;
+  /* border: 1px solid black; */
+  color: white;
+  width: 32rem;
+  height: 3rem;
+}
+footer {
+  margin: 3rem 0rem 0rem 0rem;
+  text-align: center;
+  /* padding: auto; */
+  background: black;
+  color: white;
+}

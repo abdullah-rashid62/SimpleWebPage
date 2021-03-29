@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+/* home */
+#navbar {
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#navbar::before {
+  height: 12rem;
+}
+#home::before {
+  height: 31rem;
+}
+/* sevices */
+#services {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#serMain::before {
+  height: 71rem;
+}
+/* customer */
+#brandMain {
+  background-color: white;
+}
+#brand div img {
+  width: 26px;
+}
+#brand {
+  margin: -2rem auto;
+  /* margin-bottom: -2rem; */
+  margin-bottom: 1rem;
+}
+.logo {
+  padding: 1rem;
+}
+/* contact us  */
+#formMain input,
+textarea {
+  width: 20rem;
+  /* height: 2rem; */
+}
