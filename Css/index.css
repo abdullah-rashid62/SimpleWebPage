@@ -3,14 +3,19 @@
   padding: 0%;
   margin: 0%;
 }
-body {
+/* body {
   background-color: black;
-}
+} */
 /* navbar */
 #navbar {
   display: flex;
+  background-color: black;
+  top: 0px;
+  left: 0px;
+  opacity: 1;
+  position: sticky;
 }
-#navbar::before {
+/* #navbar::before {
   content: " ";
   background-color: black;
   position: absolute;
@@ -18,12 +23,12 @@ body {
   height: 6rem;
   z-index: -1;
   opacity: 1;
-}
+} */
 #logos {
   padding: 1rem 2rem 0rem 2rem;
 }
 #logos img {
-  display: block;
+  /* display: block; */
   border: 1px solid black;
   border-radius: 51%;
 }
@@ -56,8 +61,11 @@ body {
   justify-content: center;
   color: white;
   padding: 2rem;
+  background: url("../Pictures/backgroundmian.jpeg") no-repeat center
+    center/cover;
+  opacity: 0.9;
 }
-#home::before {
+/* #home::before {
   content: " ";
   background: url("../Pictures/backgroundmian.jpeg") no-repeat center
     center/cover;
@@ -67,7 +75,7 @@ body {
   height: 29rem;
   z-index: -1;
   opacity: 0.9;
-}
+} */
 #home h2 {
   font-size: 2.8rem;
   padding: 12px;
@@ -97,7 +105,7 @@ body {
 }
 /* Servics */
 #serMain {
-  margin: 6rem 0rem 0rem 0rem;
+  background-color: black;
 }
 #serHead {
   /* margin: 8rem 0rem 0rem -1rem; */
@@ -127,7 +135,7 @@ body {
   display: block;
   margin: 0 auto;
 }
-#serMain::before {
+/* #serMain::before {
   content: " ";
   position: absolute;
   background-color: black;
@@ -135,7 +143,7 @@ body {
   height: 29rem;
   z-index: -1;
   opacity: 1;
-}
+} */
 /* Customer Sectiion */
 #brandMain {
   display: flex;
@@ -168,9 +176,11 @@ body {
 /* form Section */
 #formMain {
   display: flex;
+  background: url("../Pictures/bgform.jpg") no-repeat center center/cover;
   flex-direction: column;
+  padding-bottom: 2rem;
 }
-#formMain::before {
+/* #formMain::before {
   content: " ";
   position: absolute;
   background: url("../Pictures/bgform.jpg") no-repeat center center/cover;
@@ -178,7 +188,7 @@ body {
   height: 37rem;
   z-index: -1;
   opacity: 1;
-}
+} */
 #formMain h2 {
   /* text-align: center; */
   font-size: 2rem;
@@ -218,7 +228,6 @@ textarea {
   height: 3rem;
 }
 footer {
-  margin: 3rem 0rem 0rem 0rem;
   text-align: center;
   /* padding: auto; */
   background: black;

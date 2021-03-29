@@ -1,0 +1,41 @@
+/body {
+  /* background-color:black; */
+}
+/* NAVBAR */
+#navbar {
+  flex-direction: column;
+  height: 130px;
+}
+#logos img {
+  width: 50px;
+}
+#menu {
+  margin: 0rem auto;
+}
+#logos {
+  /* padding: 1rem 2rem 0rem 2rem; */
+  margin: 0rem auto;
+  height: 25px;
+}
+.item {
+  /* margin-top: 1.8rem; */
+  /* margin: 2rem auto; */
+}
+/* brand design */
+#brand {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  /* margin: 0rem 8rem; */
+}
+.logo {
+  padding: 1rem;
+  /* border: 1px solid black; */
+}
+.logo img {
+  width: 2rem;
+}
+#formMain input,
+textarea {
+  width: 20rem;
+}
